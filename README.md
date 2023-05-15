@@ -16,4 +16,4 @@ Por favor, asegúrese de actualizar las pruebas según corresponda
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](/LICENSE.md)
