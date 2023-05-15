@@ -1,0 +1,19 @@
+{
+    "name": "nicotc/session-checker",
+    "description": "Cuando un usuario inicia sesión en tu aplicación Session Checker verificará si ya tiene una sesión abierta en otro navegador. Si se encuentra una sesión abierta, se mostrará un mensaje al usuario informando que ya tiene una sesión abierta en otro lugar y se cerrará la sesión anterior. De esta manera, se evita que los usuarios tengan varias sesiones abiertas al mismo tiempo y se mejora la seguridad y confiabilidad de tu aplicación.",
+    "authors": [
+        {
+            "name": "Nicolas Testagrossa",
+            "email": "nicotestagrossa@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "nicotc\\SessionChecker\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
